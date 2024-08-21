@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALA DE ESCAPE GRAL SAN MARTIN</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <meta name="theme-color" content="#2091F9">
+    <meta property="og:type" content="website">
+   
+</head>
+
+<body>
+
+    <header class="hero" id="inicio">
+        <nav class="nav container">
+            <div ><img src="images/logo.png" class="imgLogo" alt=""></div>
+            <div class="nav__logo">
+                
+                <h2 class="nav__title">CPEM N°90</h2>
+            </div>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#genially" class="nav__links">Trivia Genially</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#desafioM" class="nav__links">Desafios Matemático</a>
+                </li>
+
+             
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <a href="#inicio" class="btn-flotante">INICIO</a>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Bienvenidos a la sala del General San Martin</h1>
+            <p class="hero__paragraph">San Martín ,una figura clave en la independencia de Argentina, Chile y Perú. Sus hazañas, liderazgo y valores fueron fundamentales en la lucha por la libertad.
+                Su legado sigue vivo hoy en día, recordándonos la importancia del coraje, la honestidad y la perseverancia.
+                </p>
+            <br><br><br>
+            <a href="#introduccion" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="knowledge" id="introduccion">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Para honrar al General Don José de San Martín y probar nuestro coraje y determinación, deberemos resolver los desafíos que se nos presenten con un objetivo común, escapar de la habitación!</h2>
+                    <br><br>
+                         <a href="#genially" class="cta">Comienza el primer desafio</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/sanMartín.gif" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+     
+
+        <section class="container about">
+            
+           <!-- <div class="about__main">-->
+                <div id= "genially" style="width: 90%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                    
+                    <iframe title="San Martin" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/66c38a5f3932373cc73f1188" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+            <!--</div>-->
+          <br>
+            <a href="#desafioM" class="cta">Ir a Desafio Matemático</a>
+        </section>
+
+    
+
+        <section class="questions container" id="desafioM">
+            <h2 class="subtitle">Desafios Matemático</h2>
+            <p class="questions__paragraph"><b> Acertijo matemático:Calcular las provisiones necesarias para un regimiento, usando datos históricos reales.</b><br/> <br/><i>La solución es un código para abrir un candado.</i></p>
+            <br><br>
+            <article class="questions__padding">
+                <div class="questions__answer">
+                    <h3 class="questions__title">Ayuda: 
+                        <span class="questions__arrow">
+                            <img src="./images/arrow.svg" class="questions__img">
+                        </span>
+                    </h3>
+
+                    <p class="questions__show">“Lo que no me deja dormir es, no la oposición que puedan hacerme los enemigos, sino el atravesar estos inmensos montes”, le dijo San Martín a su amigo Tomás Guido en junio de 1816, siete meses antes de encarar el cruce de la Cordillera con cerca de 6.000 hombres, 10.000 mulas, 1.600 caballos y todos los víveres, abrigos, pertrechos para la guerra y el hospital de campaña</p>
+                </div>
+            </article>
+           
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Ayuda 2
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Altitud promedio: 3000 m s. n. m. Altitud máxima: más de 4000 m s. n. m. <br/><br/>
+                            Variación de temperatura diurna: se soportó una diferencia térmica diaria promedio de 40 °C, entre la temperatura más elevada del día (30 °C) y la temperatura más baja de la noche (-10 °C).</p>
+                    </div>
+                </article>      
+            </section>        
+    </main>
+
+
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
